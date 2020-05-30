@@ -1,0 +1,27 @@
+{
+  "name": "xxwade.github.io",
+  "version": "1.0.0",
+  "description": "* 简约，尽量每个页面都不展示多余的内容。 * 有时一图抵千言，有时可能只会拖慢网页加载速度。 * 言之有物，不做无痛之呻吟。 * 如果写技术文章，那先将技术原理完全理清了再开始写，一边摸索技术一边组织文章效率较低。 * 杜绝难断句、难理解的长句子，如果不能将其拆分成几个简洁的短句，说明脑中的理解并不清晰。",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w ./scripts/*.ts",
+    "build": "tsc ./scripts/*.ts",
+    "replace-image": "node ./scripts/download.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxwade/xxwade.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxwade/xxwade.github.io/issues"
+  },
+  "homepage": "https://github.com/xxwade/xxwade.github.io#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.6",
+    "typescript": "^3.9.3"
+  }
+}

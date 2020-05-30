@@ -34,7 +34,7 @@ keywords: oplog
 #### 逻辑结构
 <a name="tZLze"></a>
 #### 物理结构
-epoch<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/117224/1590411991678-e334c62e-6a4f-4b1d-84b7-d3a32a32a7dc.png#align=left&display=inline&height=526&margin=%5Bobject%20Object%5D&name=image.png&originHeight=526&originWidth=2068&size=60157&status=done&style=none&width=2068)
+epoch<br />![image.png](/assets/images/202005/basic-storage0.png)
 <a name="2gXdM"></a>
 #### 如何避免写入过多
 批量写入<br />
@@ -80,7 +80,7 @@ epoch<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/117224/1590411991
 
 <a name="GUG4X"></a>
 #### level db
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/117224/1590413068736-f8b91ab9-3af9-4de8-ad50-579465e4d07e.png#align=left&display=inline&height=1326&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1326&originWidth=2196&size=158144&status=done&style=none&width=2196)<br />
+![image.png](/assets/images/202005/basic-storage1.png)<br />
 <br />写入时：
 
 - oplog
@@ -138,7 +138,7 @@ epoch<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/117224/1590411991
 ### R-Tree
 <a name="IAk2X"></a>
 ### Geo-hash
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/117224/1590414802196-78ff0254-e508-493c-8c94-a20d1ec0e0eb.png#align=left&display=inline&height=160&margin=%5Bobject%20Object%5D&name=image.png&originHeight=698&originWidth=996&size=48597&status=done&style=none&width=229)<br />
+![image.png](/assets/images/202005/basic-storage2.png)<br />
 
 <a name="KS8mn"></a>
 ## 时间数据库
