@@ -109,7 +109,7 @@ disqus:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: xxwade
-    repo: blog-comments
+    repo: xxwade.github.io
     clientID: 1fdbeb5b03f5daa26155
     clientSecret: a8d9b18bd60d78d7bebcca26bdd2c53b86de9ed5
 # 在使用其它评论组件时可点击显示 Disqus
